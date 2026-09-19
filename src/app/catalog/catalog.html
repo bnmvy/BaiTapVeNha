@@ -1,0 +1,42 @@
+<div class="catalog-container">
+  <table class="main-table">
+    <thead>
+      <tr>
+        <th>Mã Danh Mục</th>
+        <th>Tên Danh Mục</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let cat of categories">
+        <tr>
+          <td>{{ cat.Cateid }}</td>
+          <td>{{ cat.CateName }}</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <table class="sub-table">
+              <thead>
+                <tr>
+                  <th>Ma San Pham</th>
+                  <th>Ten San Pham</th>
+                  <th>Gia San Pham</th>
+                  <th>Picture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let prod of cat.Products">
+                  <td>{{ prod.ProductId }}</td>
+                  <td>{{ prod.ProductName }}</td>
+                  <td>{{ prod.Price }}</td>
+                  <td class="img-cell">
+                    <img [src]="prod.Image" [alt]="prod.ProductName" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,30 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.sub-table {
+  margin: 0;
+  width: 100%;
+}
+
+.img-cell {
+  text-align: center;
+  width: 100px;
+}
+
+.img-cell img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+}
