@@ -1,0 +1,49 @@
+[
+  {
+    "CustomerTypeId": 1,
+    "CustomterTypeName": "VIP",
+    "Customers": [
+      {
+        "Id": "Cus123",
+        "Name": "Obama",
+        "Email": "obama@gmail.com",
+        "Age": 67,
+        "Image": "https://th.bing.com/th/id/OIP.lUpd61_iBYx6Qwa8fZIXSAHaJP?w=145&h=182&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+      },
+      {
+        "Id": "Cus456",
+        "Name": "Kim Jong Un",
+        "Email": "unun@gmail.com",
+        "Age": 38,
+        "Image": "https://th.bing.com/th/id/OIP.jb6-_G28lQMALgV39dYHNAHaKS?w=139&h=191&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+      },
+      {
+        "Id": "Cus789",
+        "Name": "Putin",
+        "Email": "putin@gmail.com",
+        "Age": 77,
+        "Image": "https://th.bing.com/th/id/OIP.B5f0gyax5MlcIMMpVY7_8AHaKT?w=129&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+      }
+    ]
+  },
+  {
+    "CustomerTypeId": 2,
+    "CustomterTypeName": "Normal",
+    "Customers": [
+      {
+        "Id": "Cus000",
+        "Name": "Hồ Cẩm Đào",
+        "Email": "hodao@gmail.com",
+        "Age": 16,
+        "Image": "https://th.bing.com/th/id/OIP.qDhoWuMZfNkYDDGteDIhVgHaI4?w=144&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+      },
+      {
+        "Id": "Cus111",
+        "Name": "Tập Cận Bình",
+        "Email": "binhbinh@gmail.com",
+        "Age": 67,
+        "Image": "https://th.bing.com/th/id/OIF.1Dbb5t9vuziYSj8tAJgvLA?w=282&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+      }
+    ]
+  }
+]
